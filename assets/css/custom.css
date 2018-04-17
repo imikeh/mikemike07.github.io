@@ -1,0 +1,350 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ #wrapper {
+    width: 100%;
+    margin-top:50px;
+}
+
+#page-wrapper {
+    padding: 15px 15px;
+    min-height: 600px;
+    background:#FFFFFF;
+   
+}
+#page-inner {
+    width:80%;
+    margin:85px 40px 40px 40px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:1200px;
+}
+
+#page-inner-template {
+    width: 90%;
+    margin:85px 30px 30px 30px;
+    background-color:#fff!important;
+    /*padding:10px;*/
+    min-height:1200px;
+}
+
+#page-inner-original-left {
+    /*width: 45%;*/
+    margin:85px 30px 30px 30px;
+    background-color:#fff!important;
+    /*padding:10px;*/
+    min-height:1200px;
+}
+
+
+#page-inner-original-right {
+    width: 47%;
+    margin:85px 30px 30px 30px;
+    background-color:#fff!important;
+    min-height:1200px;
+}
+
+
+.text-center {
+    text-align:center;
+}
+.user-image-back {
+    background-color:#8B7BFF;
+}
+h5,.h5 {
+    font-size: 14px;
+font-weight: 500;
+text-transform: uppercase;
+padding-bottom:20px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+
+.navbar-inverse .navbar-nav > li > a {
+text-align: bottom;
+color: #FFFFFF;
+font-size: 13pt;
+font-weight: 100;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar-right {
+padding-top: 25px;
+}
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus {
+text-align: bottom;
+color: #FFFFFF;
+font-weight: 100;
+font-size: 13pt;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.arrow {
+    float: right;
+}
+
+.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}
+
+
+.nav-second-level li,
+.nav-third-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.nav-third-level li a {
+    padding-left: 55px;
+}
+.sidebar-collapse , .sidebar-collapse .nav{
+	background:none;
+}
+.sidebar-collapse .nav {
+	padding:0;
+}
+.sidebar-collapse .nav > li > a {
+background: #FFFFFF;
+text-shadow: none;
+color:#404040;
+}
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+}
+.sidebar-collapse > .nav > li {
+	border-bottom: 1px solid rgba(240, 240, 240, 1) !important;
+    font-size: 13pt
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#ffe6e6;
+	outline:0;
+}
+.nav-second-level  > li:last-child > a:after,
+.nav-third-level  > li:last-child > a:after {
+	height:50%;
+}
+.nav-third-level > li > a:after,
+.nav-third-level > li > a:before  {
+	left:40px;
+}
+.navbar-side {
+	border:none;
+	background-color: #FFFFFF;
+	
+}
+.navbar-inverse {
+background-color: #f3f3f3;
+border-color: #D3D3D3;
+
+}
+
+.navbar-default {
+border:0px solid #DDDDDD;
+padding-top: 200px; 
+     
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #FFFFFF;
+}
+.navbar-default .navbar-toggle {
+border-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFFFFF;
+}
+.nav > li > a > i {
+    margin-right:10px;
+}
+.navbar-inverse .navbar-brand  {
+color: #000000;
+font-size: 2px;
+font-weight: 200;
+}
+.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-brand:focus {
+    color: #000000;
+font-size: 2px;
+font-weight: 200;
+}
+.navbar-inverse .navbar-toggle {
+border-color: #8B7BFF;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+background-color: #8B7BFF;
+}
+.adjust-nav {
+    padding-left:20px;padding-right:20px;
+    background-color: #ef443b;
+}
+.navbar-toggle {
+    background-color: #8B7BFF;
+}
+
+/*==============================================
+    DASHBOARD STYLES     
+    =============================================*/
+
+.bg-color-blue {
+background-color: #9A86EB;
+color: #fff;
+}
+
+.no-boder {
+border: 1px solid #f3f3f3;
+}
+.back-footer-blue {
+background-color: #7479E6;
+border-top: 0px solid #fff;
+}
+
+/*==============================================
+    BOOTSTRAP STYLE CHANGES     
+    =============================================*/
+.nav-tabs > li > a {
+     -webkit-border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+border-radius: 0px 0px 0px 0px;
+}
+
+.panel-group .panel {
+border-radius: 0px;
+  -webkit-border-radius:  0px;
+-moz-border-radius: 0px;
+}
+.panel {
+    border-radius: 0px;
+  -webkit-border-radius:  0px;
+-moz-border-radius: 0px;
+}
+.panel-heading {
+ border-top-left-radius: 0px; 
+ border-top-right-radius: 0px; 
+}
+.btn {
+     border-radius: 0px;
+  -webkit-border-radius:  0px;
+-moz-border-radius: 0px;
+}
+.progress {
+     border-radius: 0px;
+  -webkit-border-radius:  0px;
+-moz-border-radius: 0px;
+}
+
+.savebutton {
+    background-color: #ef443b;
+    border-radius: 7px;
+    color: white;
+    padding: 0 10 0 10px;
+}
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:700px) {
+     #page-wrapper{
+               margin: 0 0 0 260px;
+        padding: 15px 30px 30px 30px;
+        min-height: 800px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+
+   .navbar {
+ border-radius: 0px; 
+}
+   
+#lookup {
+    float : right;
+    /*background-color: white;*/
+    border: none;
+    /*color: ;*/
+    text-align: center;
+    display: inline-block;
+
+}
+
+.pop {
+    display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 10px;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: ; /* Enable scroll if needed */
+    background-color: rgb(255,255,255); /* Fallback color */
+    background-color: rgba(255,255,255,1); /* Black w/ opacity */
+}
+
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.polishbutton{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+#polish{
+    background-color: #FFFFFF;
+    border: 2px solid #ef443b;
+    font-size: 20px;
+    color: white;
+    border-radius: 12px;
+    padding: 14px 40px;
+}
+
+.hori-bar{
+    background-color: #f2f2f2;
+    opacity: 0.8;
+}
+
+}
+
+
