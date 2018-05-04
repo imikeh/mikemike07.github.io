@@ -285,8 +285,29 @@ border-radius: 0px;
    .navbar {
  border-radius: 0px; 
 }
+
+#accept {
+    /*float : right;*/
+    /*background-color: white;*/
+    border: none;
+    /*color: grey;*/
+    font-size: 1em;
+    text-align: center;
+    display: inline-block;
+
+}
    
 #lookup {
+    float : right;
+    /*background-color: white;*/
+    border: none;
+    /*color: ;*/
+    text-align: center;
+    display: inline-block;
+
+}
+
+#lookupmain {
     float : right;
     /*background-color: white;*/
     border: none;
@@ -300,9 +321,9 @@ border-radius: 0px;
     display: none; /* Hidden by default */
     position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 40px; /* Location of the box */
+    padding-top: 200px; /* Location of the box */
     left: 10px;
-    top: 0;
+    top: 10em;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: ; /* Enable scroll if needed */
@@ -340,11 +361,26 @@ border-radius: 0px;
     padding: 14px 40px;
 }
 
+
+.percentage{
+    padding: 20px;
+}
+
+.percentage h4{
+    color: #202020;
+    font-weight: bold;
+}
+
 .hori-bar{
     background-color: #f2f2f2;
     opacity: 0.8;
 }
 
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black
+}
 }
 
 

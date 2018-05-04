@@ -12,6 +12,13 @@
     <link href="assets/css/custom.css" rel="stylesheet" />
      <!-- GOOGLE FONTS-->
    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+        <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+       <script src="assets/js/liquidFillGauge.js" language="JavaScript"></script>
+
+       <style>
+        .liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+    </style>
+
 </head>
 <body>
      
@@ -62,11 +69,41 @@
                     </li>
 
                 </ul>
+            </div><br>
+            <div class="percentage">
+                <h4>PROFESSIONALITY</h4>
+            <svg id="fillgauge2" width="50%" height="200" onclick="gauge2.update(NewValue());"></svg>
+
+                <script language="JavaScript">
+                    var config1 = liquidFillGaugeDefaultSettings();
+                    var gauge2= loadLiquidFillGauge("fillgauge2", 65, config1);
+                    var config2 = liquidFillGaugeDefaultSettings();
+                    config2.circleColor = "#ef443b";
+                    config2.textColor = "#ef443b";
+                    config2.waveTextColor = "#ef443b";
+                    config2.waveColor = "#ef443b";
+                    config2.circleThickness = 0.1;
+                    config2.circleFillGap = 0.2;
+                    config2.textVertPosition = 0.8;
+                    config2.waveAnimateTime = 2000;
+                    config2.waveHeight = 0.3;
+                    config2.waveCount = 1;
+
+                    function NewValue(){
+                        // if(Math.random() > .5){
+                        //     return Math.round(Math.random()*100);
+                        // } else {
+                        //     return (Math.random()*100).toFixed(1);
+                        // }
+                        return 65
+                    }
+                </script>
+                </div>
+
+
  <!--                <div class="polishbutton">
                     <button id="polish"><a href="modified.html"> Polish </a></button>
                 </div> -->
-            </div>
-
         </nav>
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
@@ -82,18 +119,20 @@
 
                     <div>  
                     <br>  
-                    <p>Hi David,<br>
+                    <p>Dear Hiring Manager,<br>
                         <br>
                     
-                    It is my pleasure to tell you that WordGuard is organizing
-                    the New York City Entrepreneurship Hackathon on 22-23
-                    March 2018. I'd like to invite you to attend the Hackathon
-                    as a competition reviewer.
+                    I am writing to apply to your “Actuarial Development Program” that I came across on the MetLife website. You are looking for someone who is analytical and can handle multiple priorities, and who can also think independently. For these reasons, my experiences and qualifications will make me an asset to Actuarial Development Program of MetLife.<br><br>
+
+                    My current research projects in the statistical field involves processing aseries of data to obtain the information needed for mTBI diagnosis. I think my skills in practicing data processing and statistical learning allow me to play a indispensable role in this statistic-oriented position.<br><br>
+
+                    Preparing presentations on renewed actuarial regulations in SunLife-Everbright Insurance provided me with the knowledge necessary for an actuary. With the insights gained form actuarial trainings, I was able to help clients understand the company insurance products.<br><br>
+
+                    In closing, I am thrilled at the possibility of applying for this position, and would love the opportunity to meet with you and discuss the value that I can bring. I can be reached at 123-456-7890 and abc.xyz@gmail.com
                     <br>
                     <br>
-                    Please let me know your response. <br><br>
-                    Take care,                  <br>
-                    Tao<br>
+                    Regards,                  <br>
+                    John Doe<br>
                 </p>
                     </div>        
 
@@ -119,7 +158,8 @@
     <script src="assets/js/jquery.metisMenu.js"></script>
       <!-- CUSTOM SCRIPTS -->
     <script src="assets/js/custom.js"></script>
-    
+    <script src="assets/js/popup.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
    
 </body>
 </html>
